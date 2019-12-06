@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import AOC2019
 
 main :: IO ()
-main = someFunc
+main = do putStrLn =<< show <$> puzzle1
